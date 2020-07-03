@@ -2,7 +2,7 @@ package org.example.icamp.chap05.binarysearch;
 
 // Given a sorted array, search for a target item
 
-public class TargetInSortedArray {
+public class SortedArray01_FindTarget {
 
     public int search(int[] a, int target) {
 

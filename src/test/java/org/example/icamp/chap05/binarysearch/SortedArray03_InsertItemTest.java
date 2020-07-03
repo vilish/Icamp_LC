@@ -5,13 +5,13 @@ import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-class InsertTargetInSortedArrTest {
+class SortedArray03_InsertItemTest {
 
-    private InsertTargetInSortedArr inSortedArr;
+    private SortedArray03_InsertItem inSortedArr;
 
     @BeforeEach
     void setUp() {
-        inSortedArr = new InsertTargetInSortedArr();
+        inSortedArr = new SortedArray03_InsertItem();
     }
 
     @AfterEach

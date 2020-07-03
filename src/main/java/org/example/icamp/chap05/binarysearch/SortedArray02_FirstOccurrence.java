@@ -1,6 +1,6 @@
 package org.example.icamp.chap05.binarysearch;
 
-public class FirstOccuranceInSortedArray {
+public class SortedArray02_FirstOccurrence {
 
     public int searchFirstOccurrence(int[] a, int target) {
 

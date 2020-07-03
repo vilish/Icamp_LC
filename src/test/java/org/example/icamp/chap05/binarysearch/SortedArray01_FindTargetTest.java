@@ -6,14 +6,14 @@ import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class TargetInSortedArrayTest {
+public class SortedArray01_FindTargetTest {
 
-    private TargetInSortedArray targetInSortedArray;
+    private SortedArray01_FindTarget targetInSortedArray;
 
 
     @BeforeEach
     public void setUp() {
-        targetInSortedArray = new TargetInSortedArray();
+        targetInSortedArray = new SortedArray01_FindTarget();
     }
 
     @AfterEach
